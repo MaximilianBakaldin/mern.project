@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose'
+import { Schema, model } from 'mongoose';
 
 export interface AnimalType {
     type: string,
@@ -11,7 +11,7 @@ const schema = new Schema<AnimalType>({
     type: { type: String, required: true },
     name: { type: String, required: true },
     isMammal: { type: Boolean, required: true },
-    numberOfLegs: { type: Number, required: true }
+    numberOfLegs: { type: Number, required: true },
 })
 
 const AnimalModel = model<AnimalType>('Animal', schema)
