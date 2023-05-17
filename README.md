@@ -1,3 +1,3 @@
 # mern.project
 
-får inte min http://localhost:8000 att fungera, vet inte varför
+Får inte min http://localhost:8000 att fungera men skrev in lösningen ändå.
